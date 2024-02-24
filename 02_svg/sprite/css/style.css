@@ -1,0 +1,154 @@
+@font-face {
+  font-family: 'OpenSansBold';
+  font-display: swap;
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/OpenSansBold.woff2') format('woff2'),
+    url('../fonts/OpenSansBold.woff') format('woff');
+
+}
+
+@font-face {
+  font-family: 'OpenSansRegular';
+  font-display: swap;
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/OpenSansRegular.woff2') format('woff2'),
+    url('../fonts/OpenSansRegular.woff') format('woff');
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  color: #000000;
+}
+
+.visually-hidden {
+  position: fixed;
+  transform: scale(0);
+}
+
+.container {
+  max-width: 1440px;
+  padding: 0 57px;
+  margin: 0 auto;
+}
+
+/*section1*/
+.section1 {
+  padding-top: 70px;
+  padding-bottom: 42px;
+  background-color: #fff6ed;
+}
+
+.section1__title {
+  margin-bottom: 40px;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.section1__list {
+  display: flex;
+  gap: 100px;
+  margin-bottom: 21px;
+}
+
+.section1__bottom {
+  display: flex;
+  gap: 100px;
+}
+
+.section1__bottom-title {
+  margin-bottom: 6px;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.section__bottom-text {
+  max-width: 375px;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.orange {
+  color: #FF7A00;
+}
+
+/*section2*/
+.section2 {
+  padding: 24px 0;
+  background-color: #ffffff;
+}
+
+.section2__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section2__left {
+  padding-top: 45px;
+  padding-bottom: 36px;
+  width: 50%;
+}
+
+.section2__title {
+  margin-bottom: 11px;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.section2__text {
+  max-width: 590px;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.sertion2__list {
+  display: flex;
+  gap: 90px;
+  padding-top: 67px;
+  padding-left: 110px;
+  margin-bottom: 21px;
+}
+
+.section2__right {
+  width: 50%;
+  background-image: url('../Ellipse.svg');
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.sertion2__list-bottom {
+  display: flex;
+  gap: 90px;
+  padding-left: 182px;
+}
