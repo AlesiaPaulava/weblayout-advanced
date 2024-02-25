@@ -64,15 +64,15 @@ body {
 
 /*section1*/
 .section1 {
-  padding-top: 70px;
-  padding-bottom: 42px;
+  padding-top: 66px;
+  padding-bottom: 25px;
   background-color: #fff6ed;
 }
 
 .section1__title {
   margin-bottom: 40px;
   text-align: center;
-  font-size: 40px;
+  font-size: 42px;
   font-weight: 700;
 }
 
@@ -82,14 +82,13 @@ body {
   margin-bottom: 21px;
 }
 
-.section1__bottom {
-  display: flex;
-  gap: 100px;
+.section1__item svg {
+  margin-bottom: 21px;
 }
 
 .section1__bottom-title {
   margin-bottom: 6px;
-  font-size: 30px;
+  font-size: 32px;
   font-weight: 700;
 }
 
@@ -115,14 +114,14 @@ body {
 }
 
 .section2__left {
-  padding-top: 45px;
+  padding-top: 40px;
   padding-bottom: 36px;
   width: 50%;
 }
 
 .section2__title {
-  margin-bottom: 11px;
-  font-size: 40px;
+  margin-bottom: 15px;
+  font-size: 43px;
   font-weight: 700;
 }
 
@@ -151,4 +150,9 @@ body {
   display: flex;
   gap: 90px;
   padding-left: 182px;
+}
+
+.section2__item a {
+  display: block;
+  height: 100%;
 }
