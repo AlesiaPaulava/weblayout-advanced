@@ -92,7 +92,7 @@ body {
   font-weight: 700;
 }
 
-.section__bottom-text {
+.section1__bottom-text {
   max-width: 375px;
   font-size: 16px;
   line-height: 28px;
@@ -131,24 +131,34 @@ body {
   line-height: 28px;
 }
 
-.sertion2__list {
+.list {
   display: flex;
   gap: 90px;
+  /* padding-top: 67px;
+  padding-left: 110px;
+  margin-bottom: 21px; */
+}
+
+.list-top {
   padding-top: 67px;
   padding-left: 110px;
   margin-bottom: 21px;
 }
 
-.section2__right {
+.right {
   width: 50%;
   background-image: url('../Ellipse.svg');
   background-repeat: no-repeat;
   background-position: left;
 }
 
-.sertion2__list-bottom {
+/* .sertion2__list{
   display: flex;
   gap: 90px;
+  padding-left: 182px;
+} */
+
+.list-bottom {
   padding-left: 182px;
 }
 
